@@ -1,0 +1,102 @@
+form   {
+	width: 1000px;
+	padding: 2px;
+}
+form .FormLine {
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+}
+Nav
+form  label {
+	float: left;  /* делаем метки плавающими и фиксированной ширины чтобы выровнять их по одному уровню */
+	width: 170px;
+	text-align: right;
+	position: relative; /* выравниваем тексты меток и полей по одному уровню */
+	top: 2px; /* отступ сверху подбираем в зависимости от размера шрифта и дизайна полей */
+	margin-right: 5px; /* чтобы к меткам не прилипали поля */
+}
+form  input[type=text]  {
+	margin-left: 15px;
+	margin-bottom: 10px;	
+	width: 200px;
+	background: #eff; /* обязательно указываем цвет фона (или ставим его none), т.к. в браузере могут быть свои значения */
+	border: 1px solid #7f9db9; /* цвет бордюра */
+	height: 20px; /* явно задаем высоту, для кроссбраузерности */
+}
+form input[type=submit] {
+	margin-left: 15px;
+	margin-bottom: 10px;
+	background: #5b83a4;
+	color: white;
+	width: 200px;
+	cursor: pointer; /* меняем указатель для кнопки */
+}
+.Spisok {
+	float:left;
+	width: 100%;
+	margin-top: 5px;
+	background: #c8feab;
+	border-width: 2px;
+}
+/*form input[type=checkbox]  {
+	float: left;
+	width: 20px;
+	background: #eff;
+	border: 0px solid #7f9db9;
+	height: 20px;
+
+}*/
+.navbar {
+	float:left;
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+	background: #0a1c00;
+	border-width: 2px;
+}
+.header {
+	float:left;
+	width: 100%;
+	margin-top: 5px;
+	background: #acfbfd;
+	border-width: 2px;
+}
+.content {
+	float:left;
+	width: 100%;
+	margin-top: 5px;
+	background: #c4e3f3;
+	border-width: 2px;
+}
+.footer {
+	float:left;
+	color: white;
+	width: 100%;
+	margin-top: 5px;
+	background: #1e291d;
+	border-width: 2px;
+}
+.btn {
+	color: black;
+	width: 100px;
+	height: 20px;
+	margin-top: 5px;
+	margin-left:20px;
+	margin-bottom: 5px;
+	background: #caf8fd;
+	border-width: 2px;
+}
+.btn a {
+		color: black;
+}
+fieldset {
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+	border-width: 2px;
+}
+.nav-link text-white{
+    margin-left: 5px;
+    margin-right: 10px;
+}
